@@ -17,6 +17,7 @@ error_reporting(0);
     <div class="contenedor">
         <div class="izquierda">
             <div class="logo">
+                
                 <img src="../images/logo.png" alt="Logo de la empresa">
             </div>
         </div>
