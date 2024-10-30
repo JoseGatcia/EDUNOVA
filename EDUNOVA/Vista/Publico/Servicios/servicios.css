@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e4ccff;
+}
+
+
+.navegacion {
+    list-style-type: none;
+    text-align: right;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+.navegacion li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.navegacion li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.navegacion li a:hover {
+    color: #666;
+}
+#servicios a {
+    color: #333;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+#servicios a:hover {
+    color: #270949;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #fff;
+}
+
+.Edunova{
+    width: 120px;
+    height: 120px;
+    margin: 10px 30px;
+}
+
+#nuestros-programas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 3vh;
+    padding: 10px;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+}
+
+.programas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.carta{
+    flex: 1 0 300px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #270949;
+    border: 1px solid #ccc;
+    text-align: center;
+    min-height: 450px;
+    position: relative;
+    border-radius: 20px;
+}
+
+.carta h3 {
+    color: #ffffff;
+}
+
+.carta p {
+    color: #ffffff;
+}
+
+.carta button {
+    background-color: #e4ccff;
+    color: #000000;
+    font-weight: 100;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    size: 20px;
+    text-shadow: 0 0 5px #270949;
+}
+
+.contenedor-boton {
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.parrafo{
+    margin-top: 80px;
+    text-align: left;
+    font-size: 20px;
+}
+
+.precio{
+    width: 150px;
+    height: 50px;
+}
+#logout-button {
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+#logout-button img {
+    width: 30px;
+    height: auto;
+} 
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width:  100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-contenido {
+    background-color: #e4ccff; 
+    margin: 90px auto;
+    padding: 30px; 
+    border: 2px solid #270949; 
+    width: 100%;
+    max-width: 900px; 
+    transition: all 0,5s;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
+    position: relative;
+}
+.cerrar {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.boton-comprar {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #270949;
+    color: #e4ccff;
+    font-weight: 100;
+    border: none;
+    cursor: pointer;
+    text-shadow: 0 0 5px #e4ccff;
+    margin-top: 20px;
+}
+
+
+.boton-comprar-contenedor {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
